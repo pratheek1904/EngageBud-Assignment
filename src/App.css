@@ -1,0 +1,130 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 5px;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+
+.Section{
+  position: sticky;
+}
+h3{
+  color: brown;
+}
+/* 
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width:40%;
+  list-style: none;
+} */
+img{
+  margin-top: 50px;
+} 
+.homePage{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5%;
+} 
+section{
+  margin-top: 15%;
+
+}
+
+#spin,
+#reset {
+  position: absolute;
+  bottom: 50vh;
+  right: 48vw;
+  background-color: blue;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+
+#spin:hover {
+  color: rgb(0, 180, 120);
+  border-color: rgb(0, 180, 120);
+}
+
+#spin:focus,
+#reset:focus {
+  outline: none;
+  background-color: blue;
+}
+
+/* #reset {
+  position: absolute;
+  bottom: 20vh;
+  right: 35vw;
+} */
+
+#reset:hover {
+  color: red;
+  border-color: red;
+  background-color: beige;
+}
+
+#readout2 {
+  position: absolute;
+  bottom: 6vh;
+  left: 35vw;
+}
+
+.whel{
+  z-index: 5;
+}
+.display2 {
+  position: absolute;
+  /* border: 1px solid rgb(162, 138, 138); */
+  background-color: rgb(214, 205, 194);
+  border-radius: 13px;
+  padding: 0px;
+  top: 20%;
+  left: 65%;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: a;
+}
+b {
+  background-color: rgb(213, 202, 80);
+}
+.coupon-code {
+  background-color: aqua;
+}
+#readout {
+  position: absolute;
+  bottom: 10vh;
+  left: 35vw;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#selector {
+  position: absolute;
+  top: 21vh;
+  right: 47.5vw;
+  font-size: 40px;
+  z-index: 3;
+}
+
+#result {
+  font-size: 25px;
+  /* color: rgb(0, 180, 120); */
+}
+
+input {
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid black;
+
+}
